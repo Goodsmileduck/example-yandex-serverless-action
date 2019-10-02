@@ -1,7 +1,7 @@
 import json
 def hello(event, context):
     body = {
-        "message": "Hello World!",
+        "message": "Hello World!!!",
         "input": event
     }
 response = {
@@ -13,7 +13,7 @@ return response
     # integration
     """
     return {
-        "message": "Hello World!",
+        "message": "Hello World!!!",
         "event": event
     }
     """
