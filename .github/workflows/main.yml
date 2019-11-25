@@ -11,7 +11,7 @@ jobs:
       env:
         SOURCE_DIR: '.'
         ZONE: 'ru-central1-a'
-        FUNCTION_NAME: 'hello1'
+        FUNCTION_NAME: 'hello'
         RUNTIME: 'python37'
         ENTRYPOINT: handler.hello
         CLOUD_ID: ${{ secrets.CLOUD_ID }}
