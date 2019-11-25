@@ -13,7 +13,7 @@ jobs:
         ZONE: 'ru-central1-a'
         FUNCTION_NAME: 'hello'
         RUNTIME: 'python37'
-        ENTRYPOINT: handler.hello
+#        ENTRYPOINT: handler.hello
         CLOUD_ID: ${{ secrets.CLOUD_ID }}
         FOLDER_ID: ${{ secrets.FOLDER_ID }}
         TOKEN: ${{ secrets.TOKEN }}
