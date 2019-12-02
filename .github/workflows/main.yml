@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: goodsmileduck/yandex-serverless-action@master
+    - uses: goodsmileduck/yandex-serverless-action@dev
       env:
         SOURCE_DIR: '.'
         ZONE: 'ru-central1-a'
