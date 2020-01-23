@@ -18,6 +18,6 @@ jobs:
         CLOUD_ID: ${{ secrets.CLOUD_ID }}
         FOLDER_ID: ${{ secrets.FOLDER_ID }}
         TOKEN: ${{ secrets.TOKEN }}
-#        BUCKET: ${{ secrets.BUCKET }}
+        BUCKET: ${{ secrets.BUCKET }}
         ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
         SECRET_KEY: ${{ secrets.SECRET_KEY }}
